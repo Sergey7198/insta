@@ -22,10 +22,10 @@ describe('Go to insta page', function () {
     it('Login as a user', async function () {
         browser.sleep(3000);
         // Enter your email here
-        await element(by.css('div:nth-child(1) div:nth-child(2) > div > label > input')).sendKeys('zinichuzh@gmail.com');
+        await element(by.css('div:nth-child(1) div:nth-child(2) > div > label > input')).sendKeys('*******');
         browser.sleep(1000);
         // Enter your password here
-        await element(by.css('div:nth-child(1) div:nth-child(3) input')).sendKeys('0991969783');
+        await element(by.css('div:nth-child(1) div:nth-child(3) input')).sendKeys('********');
         browser.sleep(1000);
         await element(by.css('div:nth-child(1) div:nth-child(4) > button > div')).click();
         browser.sleep(3000);
